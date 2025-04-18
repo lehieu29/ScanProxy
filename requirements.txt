@@ -1,26 +1,25 @@
 # Thư viện quét mạng
-scapy>=2.4.5
-python-masscan>=0.1.7
-python-nmap>=0.7.1
+scapy==2.5.0
+python-nmap==0.7.1
 
 # Xử lý bất đồng bộ
-asyncio>=3.4.3
-aiohttp>=3.8.1
+asyncio==3.4.3
+aiohttp==3.8.4
 
 # HTTP và xác minh proxy
-requests>=2.27.1
-urllib3>=1.26.9
+requests==2.28.2
+urllib3==1.26.15
 
 # Xử lý dữ liệu và phân tích
-geoip2>=4.6.0
-numpy>=1.22.3
-pandas>=1.4.2
-pytz>=2022.1
+geoip2==4.6.0
+numpy==1.24.3
+pandas==1.5.3
+pytz==2023.3
 
 # API và web
-Flask>=2.1.1
-Flask-RESTful>=0.3.9
+Flask==2.2.3
+Flask-RESTful==0.3.9
 
 # Công cụ hỗ trợ
-ipaddress>=1.0.23
-python-dotenv>=0.20.0
+ipaddress==1.0.23
+python-dotenv==1.0.0
